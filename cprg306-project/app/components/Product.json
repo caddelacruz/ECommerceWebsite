@@ -1,0 +1,342 @@
+[
+    {
+      "category": "Jackets",
+      "icon": "/images/jacket.png",
+      "products": [
+        {
+          "id": 1,
+          "image": "/images/jacket1.png",
+          "description": "Wool Lined Jacket",
+          "price": "CA$129.99",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 2,
+          "image": "/images/jacket2.png",
+          "description": "Military Parka Jacket",
+          "price": "CA$135.00",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 3,
+          "image": "/images/jacket3.png",
+          "description": "Warm Lite Jacket",
+          "price": "CA$99.25",
+          "tags": ["TopSearch", "BestSeller"]
+        },
+        {
+          "id": 4,
+          "image": "/images/jacket4.png",
+          "description": "Faux Fur Lined Jacket",
+          "price": "CA$129.99",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 6,
+          "image": "/images/jacket6.png",
+          "description": "Fleece Lined Jacket",
+          "price": "CA$105.99",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 5,
+          "image": "/images/jacket5.png",
+          "description": "Buttoned Puffer Jacket",
+          "price": "CA$89.99",
+          "tags": ["TopSearch"]
+        }
+        ]
+    },
+    {
+      "category": "Dresses",
+      "icon": "/images/dress.png",
+      "products": [
+        {
+          "id": 11,
+          "image": "/images/dress1.png",
+          "description": "Vintage Belted Dress",
+          "price": "CA$85.99",
+          "tags": [ "Sale"]
+        },
+        {
+          "id": 12,
+          "image": "/images/dress2.png",
+          "description": "Polka Halter Dress",
+          "price": "CA$79.99",
+          "tags": ["TopSearch"]
+        },
+        {
+          "id": 13,
+          "image": "/images/dress3.png",
+          "description": "Bust Wrap Dress",
+          "price": "CA$80.50",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 14,
+          "image": "/images/dress4.png",
+          "description": "Chiffon with Ribbon Dress",
+          "price": "CA$99.99",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 15,
+          "image": "/images/dress5.png",
+          "description": "Sparkly Layered Dress",
+          "price": "CA$100.00",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 16,
+          "image": "/images/dress6.png",
+          "description": "Corset Denim Dress",
+          "price": "CA$95.25",
+          "tags": ["TopSearch", "BestSeller"]
+        }
+      ]
+    },
+    {
+      "category": "Pants",
+      "icon": "/images/pants.png",
+      "products": [
+        {
+          "id": 21,
+          "image": "/images/pants1.png",
+          "description": "Paper Bag Pants",
+          "price": "CA$35.00",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 23,
+          "image": "/images/pants2.png",
+          "description": "Fleece with Line Pants",
+          "price": "CA$50.25",
+          "tags": ["TopSearch"]
+        },
+        {
+          "id": 24,
+          "image": "/images/pants3.png",
+          "description": "Pleated Fleece Pants",
+          "price": "CA$70.00",
+          "tags": ["New Arrival"]
+        },
+        {
+          "id": 22,
+          "image": "/images/pants4.png",
+          "description": "Checkered Pants",
+          "price": "CA$50.99",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 25,
+          "image": "/image/pants5.png",
+          "description": "Wide Leg Pants",
+          "price": "CA$35.99",
+          "tags": ["TopSearch"]
+        },
+        {
+          "id": 26,
+          "image": "/images/pants6.png",
+          "description": "Office Style Pants",
+          "price": "CA$65.25",
+          "tags": ["NewArrival", "BestSeller"]
+        }
+        
+      ]
+    },
+    {
+      "category": "Coats",
+      "icon": "/images/coat.png",
+      "products": [
+        {
+          "id": 31,
+          "image": "/image/coat1.png",
+          "description": "Buttoned Coat with Pocket",
+          "price": "CA$105.99",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 32,
+          "image": "/image/coat2.png",
+          "description": "Wool Coat",
+          "price": "CA$100.25",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 33,
+          "image": "/image/coat3.png",
+          "description": "Single Breasted Coat",
+          "price": "CA$125.50",
+          "tags": ["TopSearch"]
+        },
+        {
+          "id": 34,
+          "image": "/image/coat4.png",
+          "description": "Pop Sugar Coat",
+          "price": "CA$107.99",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 35,
+          "image": "/image/coat5.png",
+          "description": "Cotton Lined Coat",
+          "price": "CA$85.99",
+          "tags": ["NewArrival", "BestSeller"]
+        },
+        {
+          "id": 36,
+          "image": "/image/coat6.png",
+          "description": "Buttoned Wool Coat",
+          "price": "CA$125.50",
+          "tags": ["TopSearch"]
+        }
+      ]
+    },
+    {
+      "category": "Skirts",
+      "icon": "/images/skirt.png",
+      "products": [
+        {
+          "id": 41,
+          "image": "/image/skirt1.png",
+          "description": "Flirty Flare Skirt",
+          "price": "CA$55.99",
+          "tags": ["NewArrival", "BestSeller"]
+        },
+        {
+          "id": 42,
+          "image": "/image/skirt2.png",
+          "description": "Pencil Skirt",
+          "price": "CA$85.99",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 43,
+          "image": "/image/skirt3.png",
+          "description": "Peachy Skirt",
+          "price": "CA$85.99",
+          "tags": ["TopSearch"]
+        },
+        {
+          "id": 44,
+          "image": "/image/skirt4.png",
+          "description": "Ballon Skirt",
+          "price": "CA$42.50",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 45,
+          "image": "/image/skirt5.png",
+          "description": "Air Balloon Skirt",
+          "price": "CA$85.99",
+          "tags": ["TopSearch", "BestSeller"]
+        },
+        {
+          "id": 46,
+          "image": "/image/skirt6.png",
+          "description": "Samurai Skirt",
+          "price": "CA$55.99",
+          "tags": ["Sale"]
+        }
+      ]
+    },
+    {
+      "category": "Shorts",
+      "icon": "/images/shorts.png",
+      "products": [
+        {
+          "id": 51,
+          "image": "/image/short1.png",
+          "description": "Vintage Short",
+          "price": "CA$20.25",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 52,
+          "image": "/image/short2.png",
+          "description": "Linen Blend Shorts",
+          "price": "CA$25.99",
+          "tags": ["Sale", "BestSeller"]
+        },
+        {
+          "id": 53,
+          "image": "/image/short3.png",
+          "description": "Nike Sport Shorts",
+          "price": "CA$45.50",
+          "tags": ["TopSearch"]
+        },
+        {
+          "id": 54,
+          "image": "/image/short4.png",
+          "description": "Fleece Shorts",
+          "price": "CA$30.99",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 55,
+          "image": "/image/short5.png",
+          "description": "Denim Shorts",
+          "price": "CA$18.99",
+          "tags": ["TopSearch", "BestSeller"]
+        },
+        {
+          "id": 56,
+          "image": "/image/short6.png",
+          "description": "Cargo Shorts",
+          "price": "CA$25.75",
+          "tags": ["Sale"]
+        }
+      ]
+    },
+    {
+      "category": "T-shirts",
+      "icon": "/images/tshirt.png",
+      "products": [
+        {
+          "id": 61,
+          "image": "/image/tshirt2.png",
+          "description": "Girl Bun T-Shirt",
+          "price": "CA$18.99",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 62,
+          "image": "/image/tshirt1.png",
+          "description": "Shhh T-Shirt",
+          "price": "CA$20.25",
+          "tags": ["TopSearch", "BestSeller"]
+        },
+        {
+          "id": 63,
+          "image": "/image/tshirt3.png",
+          "description": "Love Heart T-Shirt",
+          "price": "CA$18.99",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 64,
+          "image": "/image/tshirt4.png",
+          "description": "Mood T-Shirt",
+          "price": "CA$22.75",
+          "tags": ["Sale"]
+        },
+        {
+          "id": 65,
+          "image": "/image/tshirt5.png",
+          "description": "Logan Wu T-Shirt",
+          "price": "CA$25.99",
+          "tags": ["NewArrival"]
+        },
+        {
+          "id": 66,
+          "image": "/image/tshirt6.png",
+          "description": "Graffiti T-Shirt",
+          "price": "CA$27.75",
+          "tags": ["TopSearch", "BestSeller"]
+        }
+      ]
+    }
+  ]
+  
+
+  

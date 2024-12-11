@@ -105,7 +105,7 @@ const Login = () => {
               Privacy Policy
             </a>.
           </p>
-          <p className="text-sm text-center mb-2 mt-9">Don't have an account?</p>
+          <p className="text-sm text-center mb-2 mt-9">Don&apost have an account?</p>
 
           {/* Updated "Sign Up" Button with Link */}
           <Link href="/signup" className="block w-3/4">

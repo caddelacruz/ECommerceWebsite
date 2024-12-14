@@ -43,7 +43,7 @@ const ShoppingBag = () => {
               <div className="space-y-4">
                 {cartItems.map((item, index) => (
                   <div key={index} className="flex items-start border-b pb-4">
-                    <img
+                    <image
                       src={item.image}
                       alt={item.name}
                       className="w-20 h-20 object-cover mr-4"

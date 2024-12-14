@@ -34,7 +34,7 @@ const Login = () => {
           <p className="text-xs text-gray-600 mb-6">Enter info to access your account.</p>
           <form className="space-y-4">
             <div className="relative">
-              <img
+              <image
                 src="/image/email.png"
                 alt="email Icon"
                 className="absolute left-3 top-3 w-6 h-6 text-gray-500"
@@ -46,7 +46,7 @@ const Login = () => {
               />
             </div>
             <div className="relative">
-              <img
+              <image
                 src="/image/padlock.png"
                 alt="Padlock Icon"
                 className="absolute left-3 top-3 w-6 h-6 text-gray-500"
@@ -80,17 +80,17 @@ const Login = () => {
           <div className="flex space-x-4 mb-10">
             <a href="apple.com" className="block">
               <button className="flex-1 hover:bg-gray-300">
-                <img src="/image/apple.png" alt="Apple Icon" className="h-8 w-8 text-gray-600" />
+                <image src="/image/apple.png" alt="Apple Icon" className="h-8 w-8 text-gray-600" />
               </button>
             </a>
             <a href="facebook.com" className="block">
               <button className="flex-1 hover:bg-gray-300 mx-5">
-                <img src="/image/facebook.png" alt="Facebook Icon" className="h-8 w-8 text-gray-600" />
+                <image src="/image/facebook.png" alt="Facebook Icon" className="h-8 w-8 text-gray-600" />
               </button>
             </a>
             <a href="" className="block">
               <button className="flex-1 hover:bg-gray-300">
-                <img src="/image/google.png" alt="Google Icon" className="h-8 w-8 text-gray-600" />
+                <image src="/image/google.png" alt="Google Icon" className="h-8 w-8 text-gray-600" />
               </button>
             </a>
           </div>

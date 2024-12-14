@@ -27,10 +27,10 @@ const Shop = () => {
     const fetchData = async () => {
       setLoading(true);
       setError("");
-
+  
       try {
         let allProducts = [];
-
+  
         // If no category is selected, fetch from all categories
         if (!selectedCategory) {
           for (const category of categories) {
@@ -53,9 +53,10 @@ const Shop = () => {
         setLoading(false);
       }
     };
-
+  
     fetchData();
-  }, [selectedCategory]);
+  }, [selectedCategory]); // Add selectedCategory as a dependency
+  
 
   // Function to get 6 random products from the given list
   const getRandomProducts = (allProducts) => {

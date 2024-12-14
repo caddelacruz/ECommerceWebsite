@@ -99,7 +99,7 @@ const Header = ({ setCurrency }) => {
       <div className="bg-black text-white text-sm py-2 flex justify-between px-6">
         <span>FREE SHIPPING ON ALL ORDERS OVER CA$50</span>
         <div className="flex items-center">
-          <img src={selectedOptionData.flag} alt="Country Flag" className="w-6 h-4 mr-2" />
+          <Image src={selectedOptionData.flag} alt="Country Flag" width={24} height={20} className='mr-2'/>
           <div className="relative">
             <button
               onClick={handleDropdownToggle}
@@ -116,7 +116,7 @@ const Header = ({ setCurrency }) => {
                     onClick={() => handleSelectOption(option.currency)}
                     className="flex items-center p-2 cursor-pointer hover:bg-gray-200"
                   >
-                    <img src={option.flag} alt={option.country} className="w-6 h-4 mr-2" />
+                    <Image src={option.flag} alt='Image of {option.country}' width={20} height={20} className="mr-2" />
                     <span className="mr-2">{option.country}</span>
                     <span>{option.currency}</span>
                   </li>
@@ -185,16 +185,17 @@ const Header = ({ setCurrency }) => {
           <div className="py-6 px-4">
             <h2 className="text-xl font-bold mb-4">{categoryLabel}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-              {filteredProducts.length > 0 &&
-                filteredProducts.map((product) => (
-                  <div key={product.id} className="flex flex-col items-center">
-                    <div className="bg-gray-200 text-sm px-4 py-2 cursor-pointer hover:bg-gray-300 flex flex-col items-center">
-                      <img src={`/image/${product.image}`} alt={product.name} className="w-1700 h-170 mx-auto mb-4" />
-                      <h3 className="text-black font-medium mb-1">{product.name}</h3>
-                      <p className="text-black">CA${formatPrice(product.price)}</p>
-                    </div>
-                  </div>
-                ))}
+            {filteredProducts.length > 0 &&
+               filteredProducts.map((product) => (
+                 <div key={product.id} className="flex flex-col items-center">
+                   <div className="bg-gray-200 text-sm px-4 py-2 cursor-pointer hover:bg-gray-300 flex flex-col items-center">
+                     <Image src={`/image/${product.image}`} alt='Image of {product.name}' width={1700} height={170} className='mx-auto mb-4' />
+                     <h3 className="text-black font-medium mb-1">{product.name}</h3>
+                     <p className="text-black">CA${formatPrice(product.price)}</p>
+                   </div>
+                 </div>
+               ))}
+
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { db } from '../_util/firebase';
 import { collection, query, where, getDocs } from 'firebase/firestore';
+import Image from 'next/image';
 
 const Sale = () => {
   const [saleItems, setSaleItems] = useState([]);
@@ -64,9 +65,11 @@ const Sale = () => {
             saleItems.map((item) => (
               <div key={item.id} className="flex flex-col items-center">
                 <div className="border p-4 shadow hover:shadow-lg bg-gray-200 w-50 h-75">
-                  <img
+                  <Image
                     src={`/image/${item.image}`}
-                    alt={item.description}
+                    alt=' Image of {item.description}'
+                    width={180}
+                    height={180}
                     className="mb-4 mx-auto"
                   />
                 </div>

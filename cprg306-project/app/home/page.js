@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { fetchBestSellerProducts } from '../_util/firebase'; // Import the fetchBestSellerProducts function
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 
@@ -65,10 +66,12 @@ const Home = () => {
             bestSellerProducts.map((product) => (
               <div key={product.id} className="flex flex-col items-center">
                 <div className="bg-gray-200 text-sm p-4 flex flex-col items-center">
-                  <img
+                  <Image
                     src={`/image/${product.image}`}
-                    alt={product.name}
-                    className="w-48 h-48 object-cover mb-4"
+                    alt='product image'
+                    width={180}
+                    height={180}
+                    className=" object-cover mb-4"
                   />
                   <span>{product.name}</span>
                 </div>
@@ -85,6 +88,7 @@ const Home = () => {
           )}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

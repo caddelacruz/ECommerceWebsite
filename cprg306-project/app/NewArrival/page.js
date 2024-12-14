@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { fetchNewArrivalProducts } from '../_util/firebase'; // Import the fetch function
+import Image from 'next/image';
 
 const NewArrival = () => {
     const [newArrivals, setNewArrivals] = useState([]);
@@ -41,9 +42,10 @@ const NewArrival = () => {
               <div key={product.id} className="flex flex-col items-center">
                 {/* Product image inside the light grey box */}
                 <div className="border p-4 shadow hover:shadow-lg bg-gray-200 w-50 h-75 mb-4"> {/* Added margin here */}
-                  <img
+                  <Image
                     src={`/image/${product.image}`}  
                     alt={product.description || `New Arrival ${index + 1}`}
+                    width={180} height={180}
                     className="mb-4 mx-auto"
                   />
                 </div>
